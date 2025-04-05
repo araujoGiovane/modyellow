@@ -1,284 +1,271 @@
-	db SABRINA, 1 ; 48, KADABRA, 46, MR_MIME, 46, SLOWBRO, 48, HYPNO, 48, HYPNO, 50, ALAKAZAM, 0
-    ;max 43
-    ; 48, KADABRA 
-    db 1, 1, PSYCHIC_M
-    db 1, 2, THUNDER_WAVE
-    db 1, 3, RECOVER ; LV 31
-    db 1, 4, KINESIS ; LV 1
-
-    ; 46, MR_MIME 
-    db 2, 1, PSYCHIC_M
-    db 2, 2, PSYWAVE
-    db 2, 3, BARRIER ; LV 1
-    db 2, 4, THUNDER_WAVE
-
-    ; 46, SLOWBRO 
-    db 3, 1, PSYCHIC_M
-    db 3, 2, SURF
-    db 3, 3, AMNESIA ; PRE LV 40
-    db 3, 4, REST
-
-    ; 48, HYPNO 
-    db 4, 1, PSYCHIC_M
-    db 4, 2, DOUBLE_EDGE
-    db 4, 3, HYPNOSIS ; LV 1
-    db 4, 4, REST
-
-    ; 48, HYPNO 
-    db 5, 1, PSYCHIC_M
-    db 5, 2, TRI_ATTACK 
-    db 5, 3, HYPNOSIS ; LV 1
-    db 5, 4, THUNDER_WAVE
-
-    ; 50, ALAKAZAM 
-    db 6, 1, PSYWAVE
-    db 6, 2, PSYCHIC_M
-    db 6, 3, REFLECT
-    db 6, 4, RECOVER ; PRE LV 31
-
-    db 0  ; Finaliza a lista
-
-
-	db GIOVANNI, 3 ; 53, DUGTRIO, 53, SANDSLASH, 53, MAROWAK, 54, NIDOKING, 54, NIDOQUEEN, 55, RHYDON, 0
-    ; max 52
-    ; 53, DUGTRIO 
-    db 1, 1, FISSURE
-    db 1, 2, EARTHQUAKE
-    db 1, 3, SLASH ; PRE LV 31 
-    db 1, 4, SAND_ATTACK ; PRE LV 24
-
-    ; 53, SANDSLASH 
-    db 2, 1, EARTHQUAKE
-    db 2, 2, SLASH ; PRE LV 17
-    db 2, 3, SAND_ATTACK ; PRE LV 10
-    db 2, 4, SUBSTITUTE
-
-    ; 53, MAROWAK 
-    db 3, 1, EARTHQUAKE
-    db 3, 2, BODY_SLAM
-    db 3, 3, BLIZZARD
-    db 3, 4, SUBSTITUTE
-
-    ; 54, NIDOKING 
-    db 4, 1, EARTHQUAKE
-    db 4, 2, BLIZZARD
-    db 4, 3, THUNDER
-    db 4, 4, DOUBLE_TEAM
-
-    ; 54, NIDOQUEEN 
-    db 5, 1, EARTHQUAKE
-    db 5, 2, BLIZZARD
-    db 5, 3, THUNDER
-    db 5, 4, DOUBLE_TEAM
-
-    ; 55, RHYDON 
-    db 6, 1, FISSURE
-    db 6, 2, EARTHQUAKE
-    db 6, 3, BLIZZARD
-    db 6, 4, SUBSTITUTE
-
-    db 0  ; Finaliza a lista
 ;-------------------------------------------------------------------------------------------------------------------------------------------
 ;-------------------------------------------------------------------------------------------------------------------------------------------
 ;-------------------------------------------------------------------------------------------------------------------------------------------
-;ELITE 4
-
-	db LORELEI, 1 ; 55, CLOYSTER, 54, JYNX, 54, JYNX, 54, JYNX, 55, DEWGONG, 56, LAPRAS, 0
-
-    ; 55, CLOYSTER 
-    db 1, 1, BLIZZARD
-    db 1, 2, SURF
-    db 1, 3, DOUBLE_EDGE
-    db 1, 4, EXPLOSION
-
-    ; 54, JYNX 
-    db 2, 1, BLIZZARD
-    db 2, 2, PSYCHIC_M
-    db 2, 3, LOVELY_KISS ; LV 1
-    db 2, 4, SUBSTITUTE
-
-    ; 54, JYNX 
-    db 3, 1, BLIZZARD
-    db 3, 2, PSYCHIC_M
-    db 3, 3, COUNTER
-    db 3, 4, LOVELY_KISS ; LV 1
-
-    ; 54, JYNX 
-    db 4, 1, ICE_BEAM
-    db 4, 2, PSYCHIC_M
-    db 4, 3, LOVELY_KISS ; LV 1
-    db 4, 4, SUBSTITUTE
-
-    ; 55, DEWGONG 
-    db 5, 1, BLIZZARD
-    db 5, 2, SURF
-    db 5, 3, REST 
-    db 5, 4, DOUBLE_TEAM
-
-    ; 56, LAPRAS 
-    db 6, 1, BLIZZARD
-    db 6, 2, SURF
-    db 6, 3, THUNDERBOLT
-    db 6, 4, REST
-
-    db 0  ; Finaliza a lista
-
-
-	db BRUNO, 1 ; 57, HITMONLEE, 57, HITMONCHAN, 56, PRIMEAPE, 56, POLIWRATH, 56, POLIWRATH, 58, MACHAMP, 0
-
-    ; 57, HITMONLEE 
-    db 1, 1, HI_JUMP_KICK ; LV 48
-    db 1, 2, BODY_SLAM
-    db 1, 3, DOUBLE_TEAM
-    db 1, 4, MEDITATE ; LV 1
-
-    ; 57, HITMONCHAN 
-    db 2, 1, SUBMISSION 
-    db 2, 2, BODY_SLAM
-    db 2, 3, AGILITY ; LV 1
-    db 2, 4, DOUBLE_TEAM
-
-    ; 56, PRIMEAPE 
-    db 3, 1, SUBMISSION
-    db 3, 2, KARATE_CHOP ; PRE LV 15
-    db 3, 3, THUNDERBOLT
-    db 3, 4, ROCK_SLIDE
-
-    ; 56, POLIWRATH 
-    db 4, 1, SURF
-    db 4, 2, EARTHQUAKE
-    db 4, 3, AMNESIA ; PRE LV 38
-    db 4, 4, HYPNOSIS ; PRE LV 16
-
-    ; 56, POLIWRATH 
-    db 5, 1, SUBMISSION
-    db 5, 2, SURF
-    db 5, 3, AMNESIA ; PRE LV 38
-    db 5, 4, HYPNOSIS ; PRE LV 16
-
-    ; 58, MACHAMP 
-    db 6, 1, SUBMISSION
-    db 6, 2, EARTHQUAKE
-    db 6, 3, HYPER_BEAM
-    db 6, 4, ROCK_SLIDE
-
-    db 0  ; Finaliza a lista
-
-
-	db AGATHA, 1 ; 59, GASTLY, 58, HAUNTER, 58, HAUNTER, 58, HAUNTER, 58, HAUNTER, 60, GENGAR, 0
-
-    ; 59, GASTLY 
-    db 1, 1, PSYCHIC_M
-    db 1, 2, MEGA_DRAIN
-    db 1, 3, HYPNOSIS ; LV 27
-    db 1, 4, CONFUSE_RAY ; LV 1
-
-    ; 58, HAUNTER 
-    db 2, 1, PSYCHIC_M
-    db 2, 2, EXPLOSION
-    db 2, 3, HYPNOSIS ; PRE LV 27
-    db 2, 4, CONFUSE_RAY ; PRE LV 1
-
-    ; 58, HAUNTER 
-    db 3, 1, PSYCHIC_M
-    db 3, 2, THUNDERBOLT
-    db 3, 3, HYPNOSIS ; PRE LV 27
-    db 3, 4, CONFUSE_RAY ; PRE LV 1
-
-    ; 58, HAUNTER 
-    db 4, 1, NIGHT_SHADE
-    db 4, 2, HYPNOSIS ; PRE LV 27
-    db 4, 3, CONFUSE_RAY ; PRE LV 1
-    db 4, 4, SUBSTITUTE
-
-    ; 58, HAUNTER 
-    db 5, 1, MEGA_DRAIN
-    db 5, 2, PSYCHIC_M
-    db 5, 3, THUNDERBOLT
-    db 5, 4, CONFUSE_RAY ; PRE LV 1
-
-    ; 60, GENGAR 
-    db 6, 1, NIGHT_SHADE
-    db 6, 2, PSYCHIC_M
-    db 6, 3, HYPNOSIS ; PRE LV 27
-    db 6, 4, CONFUSE_RAY ; PRE LV 1
-
-    db 0  ; Finaliza a lista
-
-
-	db LANCE, 1 ; 61, DRATINI, 60, DRAGONAIR, 60, DRAGONAIR, 60, DRAGONAIR, 60, DRAGONAIR, 62, DRAGONITE, 0
-
-    ; 61, DRATINI 
-    db 1, 1, WRAP ; LV 1
-    db 1, 2, BLIZZARD
-    db 1, 3, AGILITY ; LV 20
-    db 1, 4, THUNDER_WAVE
-
-    ; 60, DRAGONAIR 
-    db 2, 1, WRAP ; PRE LV 1
-    db 2, 2, THUNDERBOLT
-    db 2, 3, THUNDER_WAVE
-    db 2, 4, AGILITY ; PRE LV 20
-
-    ; 60, DRAGONAIR 
-    db 3, 1, WRAP ; PRE LV 1
-    db 3, 2, THUNDERBOLT
-    db 3, 3, ICE_BEAM
-    db 3, 4, THUNDER_WAVE
-
-    ; 60, DRAGONAIR 
-    db 4, 1, WRAP ; PRE LV 1
-    db 4, 2, HYPER_BEAM
-    db 4, 3, BLIZZARD
-    db 4, 4, THUNDER_WAVE
-
-    ; 60, DRAGONAIR 
-    db 5, 1, HYPER_BEAM
-    db 5, 2, BLIZZARD
-    db 5, 3, THUNDERBOLT
-    db 5, 4, THUNDER_WAVE
-
-    ; 62, DRAGONITE 
-    db 6, 1, DRAGON_RAGE
-    db 6, 2, HYPER_BEAM
-    db 6, 3, THUNDERBOLT
-    db 6, 4, BLIZZARD
-
-    db 0  ; Finaliza a lista
-;-------------------------------------------------------------------------------------------------------------------------------------------
-;-------------------------------------------------------------------------------------------------------------------------------------------
-;-------------------------------------------------------------------------------------------------------------------------------------------
-;GARY
-
-    db RIVAL1, 1 ; Oak's Lab - 5, EEVEE, 0
-    ; 5, EEVEE
-    db 1, 1, TACKLE ; LV 1
-    db 1, 2, TAIL_WHIP ; LV 1
-    db 1, 3, NO_MOVE
-    db 1, 4, NO_MOVE    
-    
-    db 0  ; Finaliza a lista
-;-------------------------------------------------------------------------------------------------------------------------------------------
-;-------------------------------------------------------------------------------------------------------------------------------------------
-;-------------------------------------------------------------------------------------------------------------------------------------------
-    db RIVAL1, 2 ; Route 22 - 9, SPEAROW, 9, MANKEY, 8, EEVEE, 0
-    ; 9, SPEAROW
+    db RIVAL1, 3 ; Cerulean City - 17, SPEAROW, 18, MANKEY, 15, SANDSHREW, 15, RATTATA, 17, EEVEE, 0
+    ; 18, SPEAROW
     db 1, 1, PECK ; LV 1
-    db 1, 2, GROWL ; LV 1
+    db 1, 2, RAZOR_WIND ; TM 02 NÃO SEI QUANTAS TEM NO JOGO 
     db 1, 3, LEER ; LV 9
-    db 1, 4, NO_MOVE
+    db 1, 4, GROWL ; LV 1
 
-    ; 9, MANKEY
+    ; 18, MANKEY
     db 2, 1, LOW_KICK ; LV 9
-    db 2, 2, SCRATCH ; LV 1
-    db 2, 3, LEER ; LV 1
-    db 2, 4, NO_MOVE 
+    db 2, 2, KARATE_CHOP ; LV 15
+    db 2, 3, SCRATCH ; LV 1
+    db 2, 4, LEER ; LV 1        
 
-    ; 8, EEVEE
-    db 3, 1, TACKLE ; LV 1
-    db 3, 2, TAIL_WHIP ; LV 1
-    db 3, 3, SAND_ATTACK ; LV 8
+    ; 15, SANDSHREW
+    db 3, 1, ROCK_SLIDE ; TM 48 SÓ TEM UM NO JOGO
+    db 3, 2, SCRATCH ; LV 1
+    db 3, 3, SAND_ATTACK ; LV 10
     db 3, 4, NO_MOVE
 
+    ; 15, RATTATA
+    db 4, 1, HYPER_FANG ; LV 14
+    db 4, 2, QUICK_ATTACK ; LV 7
+    db 4, 3, WATER_GUN ; TM 12 SÓ TEM UM NO JOGO
+    db 4, 4, TAIL_WHIP ; LV 1
+
+    ; 17, EEVEE
+    db 5, 1, TACKLE ; LV 1
+    db 5, 2, TAIL_WHIP ; LV 1
+    db 5, 3, SAND_ATTACK ; LV 8
+    db 5, 4, GROWL ; LV 16
+
+    db 0  ; Finaliza a lista 
+;-------------------------------------------------------------------------------------------------------------------------------------------
+;-------------------------------------------------------------------------------------------------------------------------------------------
+;-------------------------------------------------------------------------------------------------------------------------------------------
+	db RIVAL2, 1 ; SS Anne 2F - 19, MANKEY, 16, RATTATA, 19, SPEAROW, 18, SANDSHREW, 20, EEVEE, 0
+    ; 19, MANKEY
+    db 1, 1, LOW_KICK ; LV 9
+    db 1, 2, KARATE_CHOP ; LV 15
+    db 1, 3, SCRATCH ; LV 1
+    db 1, 4, LEER ; LV 1 
+
+    ; 16, RATTATA
+    db 2, 1, HYPER_FANG ; LV 14
+    db 2, 2, QUICK_ATTACK ; LV 7
+    db 2, 3, WATER_GUN ; TM 12 SÓ TEM UM NO JOGO
+    db 2, 4, TAIL_WHIP ; LV 1
+
+    ; 19, SPEAROW
+    db 3, 1, PECK ; LV 1
+    db 3, 2, RAZOR_WIND ; TM 02 NÃO SEI QUANTAS TEM NO JOGO 
+    db 3, 3, LEER ; LV 9
+    db 3, 4, GROWL ; LV 1
+
+    ; 18, SANDSHREW
+    db 4, 1, DIG ; TM 28 SÓ TEM UM NO JOGO
+    db 4, 2, ROCK_SLIDE ; TM 48 SÓ TEM UM NO JOGO
+    db 4, 3, SLASH ; LV 17
+    db 4, 4, SAND_ATTACK ; LV 10
+
+    ; 20, EEVEE
+    db 5, 1, TACKLE ; LV 1
+    db 5, 2, TAIL_WHIP ; LV 1
+    db 5, 3, SAND_ATTACK ; LV 8
+    db 5, 4, GROWL ; LV 16
+
     db 0  ; Finaliza a lista
+;-------------------------------------------------------------------------------------------------------------------------------------------
+;-------------------------------------------------------------------------------------------------------------------------------------------
+;-------------------------------------------------------------------------------------------------------------------------------------------
+	db RIVAL2, 2 ; Pokémon Tower 2F - 22, ABRA, 28, FEARROW, 23, RATICATE, 28, PRIMEAPE, 22, SANDSLASH, 25, EEVEE, 0
+    ; 22, ABRA
+    db 1, 1, TRI_ATTACK ; TM 48 SÓ TEM UM NO JOGO
+    db 1, 2, COUNTER ; TM 18 SÓ TEM UM NO JOGO
+    db 1, 3, THUNDER_WAVE ; TM 24 SÓ TEM UM NO JOGO
+    db 1, 4, DOUBLE_TEAM ; TM 32 PODE SER COMPRADO
+
+    ; 28, FEARROW
+    db 2, 1, FLY ; HM 2
+    db 2, 2, PECK ; PRE LV 1
+    db 2, 3, TAKE_DOWN ; TM 9 PODE SER COMPRADO
+    db 2, 4, LEER ; PRE LV 9
+
+    ; 23, RATICATE
+    db 3, 1, HYPER_FANG ; PRE LV 14
+    db 3, 2, QUICK_ATTACK ; PRE LV 7
+    db 3, 3, WATER_GUN ; TM 12 SÓ TEM UM NO JOGO
+    db 3, 4, TAIL_WHIP ; PRE LV 1
+
+    ; 28, PRIMEAPE
+    db 4, 1, SUBMISSION ; TM 17 PODE SER COMPRADO
+    db 4, 2, LOW_KICK ; PRE LV 9
+    db 4, 3, KARATE_CHOP ; PRE LV 15
+    db 4, 4, LEER ; PRE LV 1
+
+    ; 22, SANDSLASH
+    db 5, 1, DIG ; TM 28 SÓ TEM UM NO JOGO
+    db 5, 2, ROCK_SLIDE ; TM 48 SÓ TEM UM NO JOGO
+    db 5, 3, SLASH ; PRE LV 17
+    db 5, 4, SAND_ATTACK ; PRE LV 10
+
+    ; 25, EEVEE
+    db 6, 1, TAKE_DOWN ; TM 9 PODE SER COMPRADO
+    db 6, 2, QUICK_ATTACK ; LV 23
+    db 6, 3, REFLECT ; TM 32
+    db 6, 4, SAND_ATTACK ; LV 8
+
+    db 0  ; Finaliza a lista
+
+	db RIVAL2, 3 ; Pokémon Tower 2F - 22, ABRA, 28, FEARROW, 23, RATICATE, 28, PRIMEAPE, 22, SANDSLASH, 25, EEVEE, 0
+    ; 22, ABRA
+    db 1, 1, TRI_ATTACK ; TM 48 SÓ TEM UM NO JOGO
+    db 1, 2, COUNTER ; TM 18 SÓ TEM UM NO JOGO
+    db 1, 3, THUNDER_WAVE ; TM 24 SÓ TEM UM NO JOGO
+    db 1, 4, DOUBLE_TEAM ; TM 32 PODE SER COMPRADO
+
+    ; 28, FEARROW
+    db 2, 1, FLY ; HM 2
+    db 2, 2, PECK ; PRE LV 1
+    db 2, 3, TAKE_DOWN ; TM 9 PODE SER COMPRADO
+    db 2, 4, LEER ; PRE LV 9
+
+    ; 23, RATICATE
+    db 3, 1, HYPER_FANG ; PRE LV 14
+    db 3, 2, QUICK_ATTACK ; PRE LV 7
+    db 3, 3, WATER_GUN ; TM 12 SÓ TEM UM NO JOGO
+    db 3, 4, TAIL_WHIP ; PRE LV 1
+
+    ; 28, PRIMEAPE
+    db 4, 1, SUBMISSION ; TM 17 PODE SER COMPRADO
+    db 4, 2, LOW_KICK ; PRE LV 9
+    db 4, 3, KARATE_CHOP ; PRE LV 15
+    db 4, 4, LEER ; PRE LV 1
+
+    ; 22, SANDSLASH
+    db 5, 1, DIG ; TM 28 SÓ TEM UM NO JOGO
+    db 5, 2, ROCK_SLIDE ; TM 48 SÓ TEM UM NO JOGO
+    db 5, 3, SLASH ; PRE LV 17
+    db 5, 4, SAND_ATTACK ; PRE LV 10
+
+    ; 25, EEVEE
+    db 6, 1, TAKE_DOWN ; TM 9 PODE SER COMPRADO
+    db 6, 2, QUICK_ATTACK ; LV 23
+    db 6, 3, REFLECT ; TM 32
+    db 6, 4, SAND_ATTACK ; LV 8
+
+    db 0  ; Finaliza a lista
+
+	db RIVAL2, 4 ; Pokémon Tower 2F - 22, ABRA, 28, FEARROW, 23, RATICATE, 28, PRIMEAPE, 22, SANDSLASH, 25, EEVEE, 0
+    ; 22, ABRA
+    db 1, 1, TRI_ATTACK ; TM 48 SÓ TEM UM NO JOGO
+    db 1, 2, COUNTER ; TM 18 SÓ TEM UM NO JOGO
+    db 1, 3, THUNDER_WAVE ; TM 24 SÓ TEM UM NO JOGO
+    db 1, 4, DOUBLE_TEAM ; TM 32 PODE SER COMPRADO
+
+    ; 28, FEARROW
+    db 2, 1, FLY ; HM 2
+    db 2, 2, PECK ; PRE LV 1
+    db 2, 3, TAKE_DOWN ; TM 9 PODE SER COMPRADO
+    db 2, 4, LEER ; PRE LV 9
+
+    ; 23, RATICATE
+    db 3, 1, HYPER_FANG ; PRE LV 14
+    db 3, 2, QUICK_ATTACK ; PRE LV 7
+    db 3, 3, WATER_GUN ; TM 12 SÓ TEM UM NO JOGO
+    db 3, 4, TAIL_WHIP ; PRE LV 1
+
+    ; 28, PRIMEAPE
+    db 4, 1, SUBMISSION ; TM 17 PODE SER COMPRADO
+    db 4, 2, LOW_KICK ; PRE LV 9
+    db 4, 3, KARATE_CHOP ; PRE LV 15
+    db 4, 4, LEER ; PRE LV 1
+
+    ; 22, SANDSLASH
+    db 5, 1, DIG ; TM 28 SÓ TEM UM NO JOGO
+    db 5, 2, ROCK_SLIDE ; TM 48 SÓ TEM UM NO JOGO
+    db 5, 3, SLASH ; PRE LV 17
+    db 5, 4, SAND_ATTACK ; PRE LV 10
+
+    ; 25, EEVEE
+    db 6, 1, TAKE_DOWN ; TM 9 PODE SER COMPRADO
+    db 6, 2, QUICK_ATTACK ; LV 23
+    db 6, 3, REFLECT ; TM 32
+    db 6, 4, SAND_ATTACK ; LV 8
+
+    db 0  ; Finaliza a lista
+;-------------------------------------------------------------------------------------------------------------------------------------------
+;-------------------------------------------------------------------------------------------------------------------------------------------
+;-------------------------------------------------------------------------------------------------------------------------------------------
+	db RIVAL2, 5 ; Silph Co - 38, TAUROS, 38, EXEGGUTTE, 35, GROWLITE, 37, STARYU, 35, KADABRA, 40, JOLTEON, 0
+    ; 38, TAUROS
+    db 1, 1, BODY_SLAM ; TM 8 SÓ TEM UM NO JOGO
+    db 1, 2, STOMP ; LV 21
+    db 1, 3, EARTHQUAKE ; TM 26 SÓ TEM UM NO JOGO
+    db 1, 4, SKULL_BASH ; TM 40 SÓ TEM UM NO JOGO
+
+    ; 38, EXEGGUTTE 
+    db 2, 1, PSYCHIC_M; TM 29 SÓ TEM UM NO JOGO
+    db 2, 2, LEECH_SEED ; LV 28
+    db 2, 3, EXPLOSION ; TM 36 SÓ TEM UM NO JOGO
+    db 2, 4, STUN_SPORE ; LV 32
+
+    ; 35, GROWLITE
+    db 3, 1, EMBER ; LV 18
+    db 3, 2, ROAR ; LV 1
+    db 3, 3, DRAGON_RAGE ; TM 23 PODE SER COMPRADO
+    db 3, 4, REFLECT ; TM 33 PODE SER COMPRADO
+    
+    ; 37, STARYU
+    db 4, 1, SURF ; HM 3
+    db 4, 2, ICE_BEAM ; TM 13 SÓ TEM UM NO JOGO
+    db 4, 3, THUNDER ; TM 25 SÓ TEM UM NO JOGO
+    db 4, 4, RECOVER ; LV 27
+
+    ; 35, KADABRA
+    db 5, 1, PSYBEAM ; LV 27
+    db 5, 2, COUNTER ; TM 18 SÓ TEM UM NO JOGO
+    db 5, 3, RECOVER ; LV 31
+    db 5, 4, THUNDER_WAVE ; TM 45 SÓ TEM UM NO JOGO
+
+    ; 40, JOLTEON
+    db 6, 1, THUNDERBOLT ; TM 24 SÓ TEM UM NO JOGO
+    db 6, 2, DOUBLE_KICK ; LV 30 
+    db 6, 3, PIN_MISSILE ; LV 36
+    db 6, 4, DOUBLE_TEAM ; TM 32 PODE SER COMPRADO
+    
+    db 0  ; Finaliza a lista
+
+	db RIVAL2, 6 ; Silph Co - 38, TAUROS, 38, EXEGGUTTE, 35, STARYU, 37, PIKACHU, 35, KADABRA, 40, FLAREON, 0
+    ; 38, TAUROS
+    db 1, 1, BODY_SLAM ; TM 8 SÓ TEM UM NO JOGO
+    db 1, 2, STOMP ; LV 21
+    db 1, 3, EARTHQUAKE ; TM 26 SÓ TEM UM NO JOGO
+    db 1, 4, SKULL_BASH ; TM 40 SÓ TEM UM NO JOGO
+
+    ; 38, EXEGGUTTE 
+    db 2, 1, PSYCHIC_M; TM 29 SÓ TEM UM NO JOGO
+    db 2, 2, LEECH_SEED ; LV 28
+    db 2, 3, EXPLOSION ; TM 36 SÓ TEM UM NO JOGO
+    db 2, 4, STUN_SPORE ; LV 32
+
+    ; 35, STARYU
+    db 3, 1, SURF ; HM 3
+    db 3, 2, ICE_BEAM ; TM 13 SÓ TEM UM NO JOGO
+    db 3, 3, THUNDER ; TM 25 SÓ TEM UM NO JOGO
+    db 3, 4, RECOVER ; LV 27
+ 
+    ; 37, PIKACHU
+    db 4, 1, THUNDERBOLT ; TM 24 SÓ TEM UM NO JOGO
+    db 4, 2, SEISMIC_TOSS ; TM 19 SÓ TEM UM NO JOGO
+    db 4, 3, THUNDER_WAVE ; LV 8
+    db 4, 4, DOUBLE_TEAM ; TM 32
+
+    ; 35, KADABRA
+    db 5, 1, PSYBEAM ; LV 27
+    db 5, 2, COUNTER ; TM 18 SÓ TEM UM NO JOGO
+    db 5, 3, RECOVER ; LV 31
+    db 5, 4, THUNDER_WAVE ; TM 45 SÓ TEM UM NO JOGO
+
+    ; 40, FLAREON
+    db 6, 1, FIRE_SPIN ; LV 36 
+    db 6, 2, DOUBLE_EDGE ; TM 10 SÓ TEM UM NO JOGO
+    db 6, 3, HYPER_BEAM ; TM 15 PODE SER COMPRADO
+    db 6, 4, SAND_ATTACK ; PRE LV 8
+
+    db 0  ; Finaliza a lista
+
 
