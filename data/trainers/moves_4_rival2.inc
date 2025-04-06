@@ -36,14 +36,14 @@
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ;EEVEE -> JOLTEON
 
-	db RIVAL2, 2 ; Pokémon Tower 2F - 22, ABRA, 28, FEARROW, 23, RATICATE, 28, PRIMEAPE, 22, SANDSLASH, 25, EEVEE, 0
+	db RIVAL2, 2 ; Pokémon Tower 2F - 22, ABRA, 28, FEAROW, 23, RATICATE, 28, PRIMEAPE, 22, SANDSLASH, 25, EEVEE, 0
     ; 22, ABRA
     db 1, 1, TRI_ATTACK ; TM 48 SÓ TEM UM NO JOGO
     db 1, 2, COUNTER ; TM 18 SÓ TEM UM NO JOGO
     db 1, 3, THUNDER_WAVE ; TM 24 SÓ TEM UM NO JOGO
     db 1, 4, DOUBLE_TEAM ; TM 32 PODE SER COMPRADO
 
-    ; 28, FEARROW
+    ; 28, FEAROW
     db 2, 1, FLY ; HM 2
     db 2, 2, PECK ; PRE LV 1
     db 2, 3, TAKE_DOWN ; TM 9 PODE SER COMPRADO
@@ -78,14 +78,14 @@
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ;EEVEE -> FLAREON
 
-	db RIVAL2, 3 ; Pokémon Tower 2F - 22, ABRA, 28, FEARROW, 23, RATICATE, 28, PRIMEAPE, 22, SANDSLASH, 25, EEVEE, 0
+	db RIVAL2, 3 ; Pokémon Tower 2F - 22, ABRA, 28, FEAROW, 23, RATICATE, 28, PRIMEAPE, 22, SANDSLASH, 25, EEVEE, 0
     ; 22, ABRA
     db 1, 1, TRI_ATTACK ; TM 48 SÓ TEM UM NO JOGO
     db 1, 2, COUNTER ; TM 18 SÓ TEM UM NO JOGO
     db 1, 3, THUNDER_WAVE ; TM 24 SÓ TEM UM NO JOGO
     db 1, 4, DOUBLE_TEAM ; TM 32 PODE SER COMPRADO
 
-    ; 28, FEARROW
+    ; 28, FEAROW
     db 2, 1, FLY ; HM 2
     db 2, 2, PECK ; PRE LV 1
     db 2, 3, TAKE_DOWN ; TM 9 PODE SER COMPRADO
@@ -120,14 +120,14 @@
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ;EEVEE -> VAPOREON
 
-	db RIVAL2, 4 ; Pokémon Tower 2F - 22, ABRA, 28, FEARROW, 23, RATICATE, 28, PRIMEAPE, 22, SANDSLASH, 25, EEVEE, 0
+	db RIVAL2, 4 ; Pokémon Tower 2F - 22, ABRA, 28, FEAROW, 23, RATICATE, 28, PRIMEAPE, 22, SANDSLASH, 25, EEVEE, 0
     ; 22, ABRA
     db 1, 1, TRI_ATTACK ; TM 48 SÓ TEM UM NO JOGO
     db 1, 2, COUNTER ; TM 18 SÓ TEM UM NO JOGO
     db 1, 3, THUNDER_WAVE ; TM 24 SÓ TEM UM NO JOGO
     db 1, 4, DOUBLE_TEAM ; TM 32 PODE SER COMPRADO
 
-    ; 28, FEARROW
+    ; 28, FEAROW
     db 2, 1, FLY ; HM 2
     db 2, 2, PECK ; PRE LV 1
     db 2, 3, TAKE_DOWN ; TM 9 PODE SER COMPRADO
@@ -164,20 +164,20 @@
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ;JOLTEON
 
-	db RIVAL2, 5 ; Silph Co - 38, TAUROS, 38, EXEGGUTTE, 35, GROWLITE, 37, STARYU, 35, KADABRA, 40, JOLTEON, 0
+	db RIVAL2, 5 ; Silph Co - 38, TAUROS, 38, EXEGGCUTE, 35, GROWLITHE, 37, STARYU, 35, KADABRA, 40, JOLTEON, 0
     ; 38, TAUROS
     db 1, 1, BODY_SLAM ; TM 8 SÓ TEM UM NO JOGO
     db 1, 2, STOMP ; LV 21
     db 1, 3, EARTHQUAKE ; TM 26 SÓ TEM UM NO JOGO
     db 1, 4, SKULL_BASH ; TM 40 SÓ TEM UM NO JOGO
 
-    ; 38, EXEGGUTTE 
+    ; 38, EXEGGCUTE 
     db 2, 1, PSYCHIC_M; TM 29 SÓ TEM UM NO JOGO
     db 2, 2, LEECH_SEED ; LV 28
     db 2, 3, EXPLOSION ; TM 36 SÓ TEM UM NO JOGO
     db 2, 4, STUN_SPORE ; LV 32
 
-    ; 35, GROWLITE
+    ; 35, GROWLITHE
     db 3, 1, EMBER ; LV 18
     db 3, 2, TAKE_DOWN ; TM 9 PODE SER COMPRADO
     db 3, 3, DRAGON_RAGE ; TM 23 PODE SER COMPRADO
@@ -206,14 +206,14 @@
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ;FLAREON
 
-	db RIVAL2, 6 ; Silph Co - 38, TAUROS, 38, EXEGGUTTE, 35, STARYU, 37, PIKACHU, 35, KADABRA, 40, FLAREON, 0
+	db RIVAL2, 6 ; Silph Co - 38, TAUROS, 38, EXEGGCUTE, 35, STARYU, 37, PIKACHU, 35, KADABRA, 40, FLAREON, 0
     ; 38, TAUROS
     db 1, 1, BODY_SLAM ; TM 8 SÓ TEM UM NO JOGO
     db 1, 2, STOMP ; LV 21
     db 1, 3, EARTHQUAKE ; TM 26 SÓ TEM UM NO JOGO
     db 1, 4, SKULL_BASH ; TM 40 SÓ TEM UM NO JOGO
 
-    ; 38, EXEGGUTTE 
+    ; 38, EXEGGCUTE 
     db 2, 1, PSYCHIC_M; TM 29 SÓ TEM UM NO JOGO
     db 2, 2, LEECH_SEED ; LV 28
     db 2, 3, EXPLOSION ; TM 36 SÓ TEM UM NO JOGO
@@ -248,14 +248,14 @@
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ;VAPOREON
 
-	db RIVAL2, 7 ; Silph Co - 38, TAUROS, 38, EXEGGUTTE, 35, PIKACHU, 37, GROWLITE, 35, KADABRA, 40, VAPOREON, 0
+	db RIVAL2, 7 ; Silph Co - 38, TAUROS, 38, EXEGGCUTE, 35, PIKACHU, 37, GROWLITHE, 35, KADABRA, 40, VAPOREON, 0
     ; 38, TAUROS
     db 1, 1, BODY_SLAM ; TM 8 SÓ TEM UM NO JOGO
     db 1, 2, STOMP ; LV 21
     db 1, 3, EARTHQUAKE ; TM 26 SÓ TEM UM NO JOGO
     db 1, 4, SKULL_BASH ; TM 40 SÓ TEM UM NO JOGO
 
-    ; 38, EXEGGUTTE 
+    ; 38, EXEGGCUTE 
     db 2, 1, PSYCHIC_M; TM 29 SÓ TEM UM NO JOGO
     db 2, 2, LEECH_SEED ; LV 28
     db 2, 3, EXPLOSION ; TM 36 SÓ TEM UM NO JOGO
@@ -267,7 +267,7 @@
     db 3, 3, THUNDER_WAVE ; LV 8
     db 3, 4, DOUBLE_TEAM ; TM 32
 
-    ; 37, GROWLITE
+    ; 37, GROWLITHE
     db 4, 1, EMBER ; LV 18
     db 4, 2, TAKE_DOWN ; TM 9 PODE SER COMPRADO
     db 4, 3, DRAGON_RAGE ; TM 23 PODE SER COMPRADO
@@ -292,7 +292,7 @@
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ;JOLTEON
 
-	db RIVAL2, 8 ; Route 22 - 47, TAUROS, 48, EXEGGUTOR, 50, ARCANINE, 50, STARMIE, 47, ALAKAZAN, 53, JOLTEON, 0
+	db RIVAL2, 8 ; Route 22 - 47, TAUROS, 48, EXEGGUTOR, 50, ARCANINE, 50, STARMIE, 47, ALAKAZAM, 53, JOLTEON, 0
     ; 47, TAUROS
     db 1, 1, BODY_SLAM ; TM 8 SÓ TEM UM NO JOGO
     db 1, 2, HYPER_BEAM ; TM 15 PODE SER COMPRADO
@@ -317,7 +317,7 @@
     db 4, 3, THUNDER ; TM 25 SÓ TEM UM NO JOGO
     db 4, 4, RECOVER ; PRE LV 27
  
-    ; 47, ALAKAZAN
+    ; 47, ALAKAZAM
     db 5, 1, PSYCHIC_M; LV 38
     db 5, 2, PSYWAVE ; TM 46 SÓ TEM UM NO JOGO
     db 5, 3, RECOVER ; PRE LV 31
@@ -334,7 +334,7 @@
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ;FLAREON
 
-	db RIVAL2, 9 ; Route 22 - 47, TAUROS, 48, EXEGGUTOR, 50, STARMIE, 50, RAICHU, 47, ALAKAZAN, 53, FLAREON, 0
+	db RIVAL2, 9 ; Route 22 - 47, TAUROS, 48, EXEGGUTOR, 50, STARMIE, 50, RAICHU, 47, ALAKAZAM, 53, FLAREON, 0
     ; 47, TAUROS
     db 1, 1, BODY_SLAM ; TM 8 SÓ TEM UM NO JOGO
     db 1, 2, HYPER_BEAM ; TM 15 PODE SER COMPRADO
@@ -359,7 +359,7 @@
     db 4, 3, THUNDER_WAVE ; LV 8
     db 4, 4, DOUBLE_TEAM ; TM 32
 
-    ; 47, ALAKAZAN
+    ; 47, ALAKAZAM
     db 5, 1, PSYCHIC_M; LV 38
     db 5, 2, PSYWAVE ; TM 46 SÓ TEM UM NO JOGO
     db 5, 3, RECOVER ; PRE LV 31
@@ -376,7 +376,7 @@
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ;VAPOREON
 
-	db RIVAL2, 10 ; Route 22 - 47, TAUROS, 48, EXEGGUTOR, 50, RAICHU, 50, ARCANINE, 47, ALAKAZAN, 53, VAPOREON, 0
+	db RIVAL2, 10 ; Route 22 - 47, TAUROS, 48, EXEGGUTOR, 50, RAICHU, 50, ARCANINE, 47, ALAKAZAM, 53, VAPOREON, 0
     ; 47, TAUROS
     db 1, 1, BODY_SLAM ; TM 8 SÓ TEM UM NO JOGO
     db 1, 2, HYPER_BEAM ; TM 15 PODE SER COMPRADO
@@ -401,7 +401,7 @@
     db 4, 3, TAKE_DOWN ; TM 9 PODE SER COMPRADO
     db 4, 4, SUBSTITUTE ; TM 50 PODE SER COMPRADO
 
-    ; 47, ALAKAZAN
+    ; 47, ALAKAZAM
     db 5, 1, PSYCHIC_M; LV 38
     db 5, 2, PSYWAVE ; TM 46 SÓ TEM UM NO JOGO
     db 5, 3, RECOVER ; PRE LV 31
