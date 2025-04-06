@@ -15,10 +15,9 @@
     db 2, 4, LEER ; LV 1        
 
     ; 15, SANDSHREW
-    db 3, 1, ROCK_SLIDE ; TM 48 SÓ TEM UM NO JOGO
-    db 3, 2, SCRATCH ; LV 1
+    db 3, 1, SCRATCH ; LV 1
+    db 3, 2, BIDE ; TM 34 SÓ TEM UM NO JOGO
     db 3, 3, SAND_ATTACK ; LV 10
-    db 3, 4, NO_MOVE
 
     ; 15, RATTATA
     db 4, 1, HYPER_FANG ; LV 14
@@ -57,8 +56,8 @@
 
     ; 18, SANDSHREW
     db 4, 1, DIG ; TM 28 SÓ TEM UM NO JOGO
-    db 4, 2, ROCK_SLIDE ; TM 48 SÓ TEM UM NO JOGO
-    db 4, 3, SLASH ; LV 17
+    db 4, 2, SLASH ; LV 17
+    db 4, 3, BIDE ; TM 34 SÓ TEM UM NO JOGO
     db 4, 4, SAND_ATTACK ; LV 10
 
     ; 20, EEVEE
@@ -205,7 +204,7 @@
 
     ; 35, GROWLITE
     db 3, 1, EMBER ; LV 18
-    db 3, 2, ROAR ; LV 1
+    db 3, 2, TAKE_DOWN ; TM 9 PODE SER COMPRADO
     db 3, 3, DRAGON_RAGE ; TM 23 PODE SER COMPRADO
     db 3, 4, REFLECT ; TM 33 PODE SER COMPRADO
     

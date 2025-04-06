@@ -56,13 +56,7 @@ SpecialTrainerMoves:
     db 0  ; Finaliza a lista
 
 
-	db MISTY, 1 ; 18, KRABBY, 19, HORSEA, 18, PSYDUCK, 19, GOLDEEN, 20, GYARADOS, 21, STARMIE, 0
-    ; 18, KRABBY
-    db 1, 1, BUBBLEBEAM  
-    db 1, 2, ICE_BEAM  
-    db 1, 3, CUT
-    db 1, 4, TAKE_DOWN
-
+	db MISTY, 1 ; 19, HORSEA, 18, PSYDUCK, 19, GOLDEEN, 18, KRABBY, 20, GYARADOS, 21, STARMIE, 0
     ; 19, HORSEA 
     db 2, 1, BUBBLEBEAM  
     db 2, 2, SWIFT  
@@ -81,10 +75,16 @@ SpecialTrainerMoves:
     db 4, 3, SWIFT  
     db 4, 4, SUPERSONIC ; LV 19
 
+    ; 18, KRABBY
+    db 1, 1, BUBBLEBEAM  
+    db 1, 2, ICE_BEAM  
+    db 1, 3, CUT
+    db 1, 4, TAKE_DOWN
+
     ; 20, GYARADOS 
     db 5, 1, BUBBLEBEAM  
     db 5, 2, ICE_BEAM  
-    db 5, 3, STRENGHT
+    db 5, 3, STRENGTH
     db 5, 4, REFLECT
 
     ; 21, STARMIE 
@@ -199,7 +199,7 @@ SpecialTrainerMoves:
     db 4, 1, TOXIC  
     db 4, 2, DOUBLE_EDGE  
     db 4, 3, CONFUSE_RAY ; LV 21
-    db 4, 4, WHIRLWIND  
+    db 4, 4, DOUBLE_TEAM 
 
     ; 38, ARBOK 
     db 5, 1, WRAP ; PRE LV 1
@@ -216,19 +216,7 @@ SpecialTrainerMoves:
     db 0  ; Finaliza a lista
 
 
-	db BLAINE, 1 ; 48, NINETALES, 48, RAPIDASH, 46, MAGMAR, 46, MAGMAR, 46, MAGMAR, 50, ARCANINE, 0
-    ; 48, NINETALES 
-    db 1, 1, FLAMETHROWER ; PRE LV 35
-    db 1, 2, FIRE_SPIN ; PRE LV 42
-    db 1, 3, CONFUSE_RAY ; PRE LV 28
-    db 1, 4, ROAR ; PRE LV 21
-
-    ; 48, RAPIDASH 
-    db 2, 1, FIRE_BLAST
-    db 2, 2, FIRE_SPIN ; PRE LV 39
-    db 2, 3, HORN_DRILL
-    db 2, 4, AGILITY ; PRE LV 48
-
+	db BLAINE, 1 ; 46, MAGMAR, 46, MAGMAR, 46, MAGMAR, 48, NINETALES, 48, RAPIDASH, 50, ARCANINE, 0
     ; 46, MAGMAR 
     db 3, 1, FIRE_PUNCH ; LV 43
     db 3, 2, PSYCHIC_M
@@ -243,15 +231,28 @@ SpecialTrainerMoves:
 
     ; 46, MAGMAR 
     db 5, 1, FIRE_BLAST
-    db 5, 2, PSYCHIC_M
+    db 5, 2, BODY_SLAM
     db 5, 3, CONFUSE_RAY ; LV 39
     db 5, 4, SMOKESCREEN ; LV 48
+    
+    ; 48, NINETALES 
+    db 1, 1, FLAMETHROWER ; PRE LV 35
+    db 1, 2, FIRE_SPIN ; PRE LV 42
+    db 1, 3, BODY_SLAM
+    db 1, 4, CONFUSE_RAY ; PRE LV 28
+
+
+    ; 48, RAPIDASH 
+    db 2, 1, FIRE_BLAST
+    db 2, 2, FIRE_SPIN ; PRE LV 39
+    db 2, 3, HORN_DRILL
+    db 2, 4, AGILITY ; PRE LV 48
 
     ; 50, ARCANINE 
     db 6, 1, FIRE_BLAST
     db 6, 2, BODY_SLAM
     db 6, 3, DRAGON_RAGE
-    db 6, 4, ROAR ; PRE LV 1
+    db 6, 4, DOUBLE_TEAM
 
     db 0  ; Finaliza a lista
 
