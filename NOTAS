@@ -14,43 +14,48 @@ Moviemntes e times alterados (~pokeyellow/data/trainers/ vários arquivos)
             menos o special_moves.asm, aqui só tem os includes
 
 
-TMs do casino tiveram preços reduzidos (/home/giovane/modYellow/pokeyellow/data/events/prizes.asm)
+TMs do casino tiveram preços reduzidos (/home/giovane/modYellow/pokeyellow/data/events/prizes.asm) NÃO MUDEI AINDA
     DRAGON RAGE 3300 -> 2500
     HYPER BEAM  5500 -> 3000
     SUBSTITUTE  7700 -> 2000
+
+
 
 
 pokemons ausentes, os pokemons ausentes aparecerão nos mesmos locais que suas counterparties nos jogos originais, 
     menos
         pikachu, eevee, jynx e mew
 
-    weedle - floresta de viridian
-    kakuna - floresta de viridian
-    beedrill - evolução de kakuna
+pokemons q estãoi no jogo
+    vulpix, 7, 8, mansão
+    growlithe. 7, 8, mansão 
+    pikachu selvagem - nos matos antes da rock tunnel power plant
+    MR MIME GAME CORNER
 
-    ekans - 3, 4, mt moon
+    GRIMER/MUK NÃO APARECE MAIS NA POWER PLANT
+
+pokemons ausentes
+    weedle - floresta de viridian OK
+    kakuna - floresta de viridian OK
+    beedrill - evolução de kakuna OK
+
+    ekans - 3, 4, mt moon OK
     arbok - cerulena cave
 
-    raichu - ceruelan cave, power plant
-    pikachu selvagem - nos matos antes da rock tunnel power plant
+    raichu - ceruelan cave, power plant OK
 
-    meowth - 3, 4, 22, 23
-    persian - 23
+    meowth - 3, 4, 22, 23 OK
+    persian - 23 OK
 
-    koffing - pokemon mansion, power plant
-    weezing - pokemon mansion, power plant
+    koffing - pokemon mansion OK
+    weezing - pokemon mansion OK
 
-    electabuzz - na power plant
+    electabuzz - na power plant OK
 
-    magmar - na mansão
+    magmar - na mansão OK
 
-    eevee - no game corner, além do que já está no jogo original
-    jynx - no game corner
-    dratiny - game corber
-
-    vulpix, 7, 8, mansão
-    growlithe. 7, 8, mansão    
-
+    jynx - no game corner OK
+   
     mew - recompensa por ver 150 pokemons
           ou, recomensa por capturar os 150
 

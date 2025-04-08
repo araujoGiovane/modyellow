@@ -6,9 +6,9 @@ PokemonMansion3FWildMons:
 	db 35, GRIMER
 	db 43, RATTATA
 	db 43, RATICATE
-	db 38, GRIMER
-	db 38, GRIMER
-	db 38, MUK
+	db 32, KOFFING
+	db 35, KOFFING
+	db 41, WEEZING
 	db 41, MUK
 	end_grass_wildmons
 

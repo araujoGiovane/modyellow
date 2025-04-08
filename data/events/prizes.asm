@@ -4,13 +4,13 @@ PrizeDifferentMenuPtrs:
 	dw PrizeMenuTMsEntries,  PrizeMenuTMsCost
 
 PrizeMenuMon1Entries:
-	db ABRA
+	db JYNX
 	db VULPIX
 	db WIGGLYTUFF
 	db "@"
 
 PrizeMenuMon1Cost:
-	bcd2 230
+	bcd2 2300
 	bcd2 1000
 	bcd2 2680
 	db "@"

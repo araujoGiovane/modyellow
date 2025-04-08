@@ -1,6 +1,6 @@
 CeruleanCave1FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 50, GOLBAT
+	db 52, ARBOK
 	db 55, GOLBAT
 	db 45, GRAVELER
 	db 55, GLOOM

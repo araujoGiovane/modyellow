@@ -1,6 +1,6 @@
 CeruleanCaveB1FWildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db 54, GOLBAT
+	db 54, RAICHU
 	db 59, GOLBAT
 	db 55, GRAVELER
 	db 52, RHYHORN
