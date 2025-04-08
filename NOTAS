@@ -1,0 +1,57 @@
+Moviemntes e times alterados (~pokeyellow/data/trainers/ vários arquivos)
+    não é viável mostrar tudo por aqui, as mudanças estão com comentários em 
+    ~pokeyellow/data/trainers/ Nesse enedereço, os arquivos:
+        parties.asm 
+        special_moves.asm
+        moves_1_gym.inc
+        moves_2_elite.inc
+        moves_3_rival1.inc
+        moves_4_rival2.inc
+        moves_5_champ.inc
+
+        o arquivos parties tem todos os times definidos
+        o restante tem os movimentos
+            menos o special_moves.asm, aqui só tem os includes
+
+
+TMs do casino tiveram preços reduzidos (/home/giovane/modYellow/pokeyellow/data/events/prizes.asm)
+    DRAGON RAGE 3300 -> 2500
+    HYPER BEAM  5500 -> 3000
+    SUBSTITUTE  7700 -> 2000
+
+
+pokemons ausentes, os pokemons ausentes aparecerão nos mesmos locais que suas counterparties nos jogos originais, 
+    menos
+        pikachu, eevee, jynx e mew
+
+    weedle - floresta de viridian
+    kakuna - floresta de viridian
+    beedrill - evolução de kakuna
+
+    ekans - 3, 4, mt moon
+    arbok - cerulena cave
+
+    raichu - ceruelan cave, power plant
+    pikachu selvagem - nos matos antes da rock tunnel power plant
+
+    meowth - 3, 4, 22, 23
+    persian - 23
+
+    koffing - pokemon mansion, power plant
+    weezing - pokemon mansion, power plant
+
+    electabuzz - na power plant
+
+    magmar - na mansão
+
+    eevee - no game corner, além do que já está no jogo original
+    jynx - no game corner
+    dratiny - game corber
+
+    vulpix, 7, 8, mansão
+    growlithe. 7, 8, mansão    
+
+    mew - recompensa por ver 150 pokemons
+          ou, recomensa por capturar os 150
+
+
