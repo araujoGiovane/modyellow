@@ -6,12 +6,12 @@ PrizeDifferentMenuPtrs:
 PrizeMenuMon1Entries:
 	db JYNX
 	db VULPIX
-	db WIGGLYTUFF
+	db EEVEE
 	db "@"
 
 PrizeMenuMon1Cost:
-	bcd2 2300
-	bcd2 1000
+	bcd2 2200
+	bcd2 2200
 	bcd2 2680
 	db "@"
 
@@ -22,9 +22,9 @@ PrizeMenuMon2Entries:
 	db "@"
 
 PrizeMenuMon2Cost:
-	bcd2 6500
-	bcd2 6500
-	bcd2 9999
+	bcd2 3500
+	bcd2 3500
+	bcd2 5000
 	db "@"
 
 PrizeMenuTMsEntries:
@@ -34,7 +34,7 @@ PrizeMenuTMsEntries:
 	db "@"
 
 PrizeMenuTMsCost:
-	bcd2 3300
-	bcd2 5500
-	bcd2 7700
+	bcd2 2500
+	bcd2 3000
+	bcd2 2000
 	db "@"

@@ -2,8 +2,8 @@ Route10WildMons:
 	def_grass_wildmons 15 ; encounter rate
 	db 16, MAGNEMITE
 	db 18, RATTATA
-	db 18, MAGNEMITE
-	db 20, MAGNEMITE
+	db 18, PIKACHU
+	db 20, PIKACHU
 	db 17, NIDORAN_M
 	db 17, NIDORAN_F
 	db 22, MAGNEMITE

@@ -38,29 +38,32 @@ Pokemons ausentes adicionados ao jogo (~pokeyellow/data/wild/maps/ varios arquiv
         Jynx         - Game Corner
 
 
-
-
-
-
-
-
-
-
-
-
 Pokémon que ja estavam no jogo, mas tiveram alterações em alguns locais 
-    Vulpix    - antes aparecia no casino, agora aparece nas rotas 7, 8 e na mansão
-    Growlithe - só aparecia na mansão, agora aparece nas rotas 7 e 8 também.
-    Pikachu   - Só tinha o inicial, agora aparece um pouco antes do rock Tunnel (Rota x) e na Power Plant
-    Eevee     - Só tinha um no jogo, agora aparece no casino
-    Mr. Mime  - Só era pego por troca, agora aparece no casino
+    Vulpix    - antes aparecia no casino, agora aparece nas rotas 7, 8 e na mansão(1F).
+    Growlithe - só aparecia na mansão(1F), agora, além da mansão(1F) aparece nas rotas 7 e 8 também.
+    Pikachu   - Só tinha o inicial, agora aparece um pouco antes do rock Tunnel (Rota 10) e na Power Plant
+    Eevee     - Só tinha um no jogo, agora aparece no casino 
+    Mr. Mime  - Só era pego por troca, agora aparece no casino 
 
     Grimer e Muk não aparecem mais na Power Plant
 
-TMs do casino tiveram preços reduzidos (/home/giovane/modYellow/pokeyellow/data/events/prizes.asm) NÃO MUDEI AINDA
+
+Itens do casino tiveram preços reduzidos (/home/giovane/modYellow/pokeyellow/data/events/prizes.asm)
+    SCYTHER    6500  -> 3500
+    PINSIR     6500  -> 3500
+	PORYGON    9999  -> 5000
+
     DRAGON RAGE 3300 -> 2500
     HYPER BEAM  5500 -> 3000
     SUBSTITUTE  7700 -> 2000
+
+
+
+
+
+
+
+
 
 
 

@@ -1,7 +1,7 @@
 PokemonMansion2FWildMons:
 	def_grass_wildmons 10 ; encounter rate
 	db 37, MAGMAR
-	db 37, RATICATE
+	db 33, MAGMAR
 	db 32, KOFFING
 	db 35, KOFFING
 	db 40, RATTATA

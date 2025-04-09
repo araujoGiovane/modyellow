@@ -8,8 +8,8 @@ Route7WildMons:
 	db 24, PIDGEOTTO
 	db 26, ABRA
 	db 19, JIGGLYPUFF
-	db 24, JIGGLYPUFF
-	db 24, JIGGLYPUFF
+	db 24, VULPIX
+	db 24, GROWLITHE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
