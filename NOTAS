@@ -14,49 +14,53 @@ Moviemntes e times alterados (~pokeyellow/data/trainers/ vários arquivos)
             menos o special_moves.asm, aqui só tem os includes
 
 
+Pokemons ausentes adicionados ao jogo (~pokeyellow/data/wild/maps/ varios arquivos)
+    pokemons ausentes adicionados
+        Weedle       - Floresta de Veridian
+        Kakuna       - Floresta de Veridian
+        Beedrill     - Evolução do Kakuna
+
+        Ekans        - Rotas 3, 4, Mt Moon(1F)
+        Arbok        - Caverna de Cerulean, evolução do Ekans
+
+        Raichu       - Caverna de Cerulean(B1), Power Plant, evolução Pikachu (não o inicial)
+
+        Meowth       - Rotas 3, 4, 22 e 23
+        Persian      - Rota 23, evolução do Meowth
+
+        Koffing      - Mansão Pokémon (1F, 2F, 3F E B1)
+        Weezing      - Mansão Pokémon (2F, 3F E B1), evolução do Grimer
+
+        Electabuzz   - Power Plant
+
+        Magmar       - Mansão Pokémon (1F, 2F)
+
+        Jynx         - Game Corner
+
+
+
+
+
+
+
+
+
+
+
+
+Pokémon que ja estavam no jogo, mas tiveram alterações em alguns locais 
+    Vulpix    - antes aparecia no casino, agora aparece nas rotas 7, 8 e na mansão
+    Growlithe - só aparecia na mansão, agora aparece nas rotas 7 e 8 também.
+    Pikachu   - Só tinha o inicial, agora aparece um pouco antes do rock Tunnel (Rota x) e na Power Plant
+    Eevee     - Só tinha um no jogo, agora aparece no casino
+    Mr. Mime  - Só era pego por troca, agora aparece no casino
+
+    Grimer e Muk não aparecem mais na Power Plant
+
 TMs do casino tiveram preços reduzidos (/home/giovane/modYellow/pokeyellow/data/events/prizes.asm) NÃO MUDEI AINDA
     DRAGON RAGE 3300 -> 2500
     HYPER BEAM  5500 -> 3000
     SUBSTITUTE  7700 -> 2000
 
-
-
-
-pokemons ausentes, os pokemons ausentes aparecerão nos mesmos locais que suas counterparties nos jogos originais, 
-    menos
-        pikachu, eevee, jynx e mew
-
-pokemons q estãoi no jogo
-    vulpix, 7, 8, mansão
-    growlithe. 7, 8, mansão 
-    pikachu selvagem - nos matos antes da rock tunnel power plant
-    MR MIME GAME CORNER
-
-    GRIMER/MUK NÃO APARECE MAIS NA POWER PLANT
-
-pokemons ausentes
-    weedle - floresta de viridian OK
-    kakuna - floresta de viridian OK
-    beedrill - evolução de kakuna OK
-
-    ekans - 3, 4, mt moon OK
-    arbok - cerulena cave
-
-    raichu - ceruelan cave, power plant OK
-
-    meowth - 3, 4, 22, 23 OK
-    persian - 23 OK
-
-    koffing - pokemon mansion OK
-    weezing - pokemon mansion OK
-
-    electabuzz - na power plant OK
-
-    magmar - na mansão OK
-
-    jynx - no game corner OK
-   
-    mew - recompensa por ver 150 pokemons
-          ou, recomensa por capturar os 150
 
 
