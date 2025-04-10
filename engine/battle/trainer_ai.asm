@@ -344,7 +344,7 @@ BlackbeltAI:
 GiovanniAI:
 	cp 25 percent + 1
 	ret nc
-	jp AIUseGuardSpec
+;	jp AIUseGuardSpec
 
 CooltrainerMAI:
 	cp 25 percent + 1
@@ -369,17 +369,17 @@ BrockAI:
 	ld a, [wEnemyMonStatus]
 	and a
 	ret z
-	jp AIUseFullHeal
+;	jp AIUseFullHeal
 
 MistyAI:
 	cp 25 percent + 1
 	ret nc
-	jp AIUseXDefend
+;	jp AIUseXDefend
 
 LtSurgeAI:
 	cp 25 percent + 1
 	ret nc
-	jp AIUseXSpeed
+;	jp AIUseXSpeed
 
 ErikaAI:
 	cp 50 percent + 1
@@ -387,12 +387,12 @@ ErikaAI:
 	ld a, 10
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseSuperPotion
+;	jp AIUseSuperPotion
 
 KogaAI:
 	cp 13 percent - 1
 	ret nc
-	jp AIUseXAttack
+;	jp AIUseXAttack
 
 BlaineAI:
 	cp 25 percent + 1
@@ -400,12 +400,12 @@ BlaineAI:
 	ld a, 10
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseSuperPotion
+;	jp AIUseSuperPotion
 
 SabrinaAI:
 	cp 25 percent + 1
 	ret nc
-	jp AIUseXDefend
+;	jp AIUseXDefend
 
 Rival2AI:
 	cp 13 percent - 1
@@ -413,7 +413,7 @@ Rival2AI:
 	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUsePotion
+;	jp AIUsePotion
 
 Rival3AI:
 	cp 13 percent - 1
@@ -421,7 +421,7 @@ Rival3AI:
 	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseFullRestore
+;	jp AIUseFullRestore
 
 LoreleiAI:
 	cp 50 percent + 1
@@ -429,12 +429,12 @@ LoreleiAI:
 	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseSuperPotion
+;	jp AIUseSuperPotion
 
 BrunoAI:
 	cp 25 percent + 1
 	ret nc
-	jp AIUseXDefend
+;	jp AIUseXDefend
 
 AgathaAI:
 	cp 8 percent
@@ -444,7 +444,7 @@ AgathaAI:
 	ld a, 4
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseSuperPotion
+;	jp AIUseSuperPotion
 
 LanceAI:
 	cp 50 percent + 1
@@ -452,7 +452,7 @@ LanceAI:
 	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseHyperPotion
+;	jp AIUseHyperPotion
 
 GenericAI:
 	and a ; clear carry
