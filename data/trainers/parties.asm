@@ -84,9 +84,9 @@ YoungsterData:
 
 BugCatcherData:
 ; Viridian Forest
-	db 7, CATERPIE, CATERPIE, 0
-	db 6, METAPOD, CATERPIE, METAPOD, 0
-	db 10, CATERPIE, 0
+	db 7, CATERPIE, CATERPIE, METAPOD, 0
+	db 6, METAPOD, CATERPIE, METAPOD, KAKUNA, 0
+	db 10, CATERPIE, WEEDLE, 0
 ; Route 3
 	db 10, CATERPIE, WEEDLE, CATERPIE, 0
 	db 9, WEEDLE, KAKUNA, CATERPIE, METAPOD, 0
@@ -105,7 +105,7 @@ BugCatcherData:
 	db 19, BEEDRILL, BEEDRILL, 0
 	db 20, CATERPIE, WEEDLE, VENONAT, 0
 ; Viridian Forest
-	db 8, CATERPIE, METAPOD, 0
+	db 8, CATERPIE, METAPOD, WEEDLE, KAKUNA, 0
 
 LassData:
 ; Route 3
@@ -136,7 +136,7 @@ LassData:
 	db 23, BELLSPROUT, WEEPINBELL, 0
 	db 23, ODDISH, GLOOM, 0
 ; Viridian Forest
-	db 6, NIDORAN_F, NIDORAN_M, 0
+	db 6, NIDORAN_F, NIDORAN_M, NIDORAN_F, NIDORAN_M, 0
 
 SailorData:
 ; SS Anne Stern
