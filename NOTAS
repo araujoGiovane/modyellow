@@ -1,4 +1,4 @@
-Moviemntes e times alterados (~pokeyellow/data/trainers/ vários arquivos)
+1- Moviemntes e times alterados (~pokeyellow/data/trainers/ vários arquivos)
     não é viável mostrar tudo por aqui, as mudanças estão com comentários em 
     ~pokeyellow/data/trainers/ Nesse enedereço, os arquivos:
         parties.asm 
@@ -14,7 +14,7 @@ Moviemntes e times alterados (~pokeyellow/data/trainers/ vários arquivos)
             menos o special_moves.asm, aqui só tem os includes
 
 
-Pokemons ausentes adicionados ao jogo (~pokeyellow/data/wild/maps/ varios arquivos)
+2- Pokemons ausentes adicionados ao jogo (~pokeyellow/data/wild/maps/ varios arquivos)
     pokemons ausentes adicionados
         Weedle       - Floresta de Veridian
         Kakuna       - Floresta de Veridian
@@ -38,7 +38,7 @@ Pokemons ausentes adicionados ao jogo (~pokeyellow/data/wild/maps/ varios arquiv
         Jynx         - Game Corner
 
 
-Pokémon que ja estavam no jogo, mas tiveram alterações em alguns locais 
+3- Pokémon que ja estavam no jogo, mas tiveram alterações em alguns locais 
     Vulpix    - antes aparecia no casino, agora aparece nas rotas 7, 8 e na mansão(1F).
     Growlithe - só aparecia na mansão(1F), agora, além da mansão(1F) aparece nas rotas 7 e 8 também.
     Pikachu   - Só tinha o inicial, agora aparece um pouco antes do rock Tunnel (Rota 10) e na Power Plant
@@ -48,7 +48,7 @@ Pokémon que ja estavam no jogo, mas tiveram alterações em alguns locais
     Grimer e Muk não aparecem mais na Power Plant
 
 
-Itens do casino tiveram preços reduzidos (/home/giovane/modYellow/pokeyellow/data/events/prizes.asm)
+4- Itens do casino tiveram preços reduzidos (/home/giovane/modYellow/pokeyellow/data/events/prizes.asm)
     SCYTHER    6500  -> 3500
     PINSIR     6500  -> 3500
 	PORYGON    9999  -> 5000
@@ -56,6 +56,38 @@ Itens do casino tiveram preços reduzidos (/home/giovane/modYellow/pokeyellow/da
     DRAGON RAGE 3300 -> 2500
     HYPER BEAM  5500 -> 3000
     SUBSTITUTE  7700 -> 2000
+
+
+5- Os 4 pokemons que evoluiam por troca agora evoluem no nível 36.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
