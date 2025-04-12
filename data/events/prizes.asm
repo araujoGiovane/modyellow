@@ -5,7 +5,7 @@ PrizeDifferentMenuPtrs:
 
 PrizeMenuMon1Entries:
 	db JYNX
-	db VULPIX
+	db MR_MIME
 	db EEVEE
 	db "@"
 
@@ -16,14 +16,14 @@ PrizeMenuMon1Cost:
 	db "@"
 
 PrizeMenuMon2Entries:
-	db SCYTHER
-	db PINSIR
+	db HITMONLEE
+	db HITMONCHAN
 	db PORYGON
 	db "@"
 
 PrizeMenuMon2Cost:
-	bcd2 3500
-	bcd2 3500
+	bcd2 4500
+	bcd2 4500
 	bcd2 5000
 	db "@"
 

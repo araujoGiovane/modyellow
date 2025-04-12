@@ -1,8 +1,8 @@
 PrizeMonLevelDictionary:
-	db ABRA,       15
-	db VULPIX,     18
-	db WIGGLYTUFF, 22
+	db JYNX,       25
+	db MR_MIME,    25
+	db EEVEE,      20
 
-	db SCYTHER,    30
-	db PINSIR,     30
+	db HITMONLEE,  30
+	db HITMONCHAN, 30
 	db PORYGON,    26
