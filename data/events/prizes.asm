@@ -28,13 +28,13 @@ PrizeMenuMon2Cost:
 	db "@"
 
 PrizeMenuTMsEntries:
-	db TM_DRAGON_RAGE
-	db TM_HYPER_BEAM
-	db TM_SUBSTITUTE
+	db DOME_FOSSIL
+	db HELIX_FOSSIL
+	db RARE_CANDY
 	db "@"
 
 PrizeMenuTMsCost:
-	bcd2 2500
-	bcd2 3000
-	bcd2 2000
+	bcd2 4000
+	bcd2 4000
+	bcd2 1000
 	db "@"
