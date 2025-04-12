@@ -30,11 +30,11 @@ PrizeMenuMon2Cost:
 PrizeMenuTMsEntries:
 	db DOME_FOSSIL
 	db HELIX_FOSSIL
-	db RARE_CANDY
+	db TM_HYPER_BEAM
 	db "@"
 
 PrizeMenuTMsCost:
 	bcd2 4000
 	bcd2 4000
-	bcd2 1000
+	bcd2 3000
 	db "@"
