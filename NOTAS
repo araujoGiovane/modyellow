@@ -94,8 +94,14 @@
             
         
 
+15   - o evento do mew foi definido no arquivo event_constants
+15.1 - o sprite do mew deve ser posicionado na masão de cinabar
+        pelo menos, só o sprite
+15.2 - se a batalha não foi adiiconada de forma automatica com o sprite, agr ela deve ser posta lá
+15.3 - fazer a verificação de algum evento pra acionar a batalha contra o mew 
+        zerar o jogo ou pegar a oitva insignia
 
-O mew deve ser entregue como recompensa por coletar todos os 150 pokemon
+
 
 
 
