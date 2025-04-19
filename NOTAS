@@ -95,13 +95,11 @@
         
 
 15   - o evento do mew foi definido no arquivo event_constants
+        esse evento já esta sendo chamado no script da mansão
 15.1 - o sprite do mew deve ser posicionado na masão de cinabar
-        pelo menos, só o sprite
-15.2 - se a batalha não foi adiiconada de forma automatica com o sprite, agr ela deve ser posta lá
-15.3 - fazer a verificação de algum evento pra acionar a batalha contra o mew 
-        zerar o jogo ou pegar a oitva insignia
-16 ta foda
-
+        isso foi definido em maps/objects
+15.2 - a batalha ja inicia
+15.3 - adiiconar o dialogo do mew
 
 
 
