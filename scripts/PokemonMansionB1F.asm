@@ -101,8 +101,7 @@ PokemonMansionB1FMewText:
 	jp TextScriptEnd
 
 MewBattleText:
-;	text_far _MewBattleText define esse texto depois
-	text_far _PokemonMansionB1FBurglarBattleText
+	text_far _MewBattleText
 	text_asm
 	ld a, MEW
 	call PlayCry
