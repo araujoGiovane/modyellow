@@ -79,7 +79,7 @@ Mansion4TrainerHeader0:
 Mansion4TrainerHeader1:
 	trainer EVENT_BEAT_MANSION_4_TRAINER_1, 3, PokemonMansionB1FScientistBattleText, PokemonMansionB1FScientistEndBattleText, PokemonMansionB1FScientistAfterBattleText
 MewTrainerHeader:
-    trainer EVENT_BEAT_MEW, 3, MewBattleText, MewBattleText, MewBattleText
+    trainer EVENT_BEAT_MEW, 0, MewBattleText, MewBattleText, MewBattleText
 	db -1 ; end
 
 PokemonMansionB1FBurglarText:
