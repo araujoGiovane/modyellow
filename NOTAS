@@ -91,14 +91,9 @@
             1 na silph co (4F)
             1 na seafon island
             1 na rota da vitoria
-            
-        
 
 15   - o evento do mew foi definido no arquivo event_constants
-        esse evento já esta sendo chamado no script da mansão
-15.1 - o sprite do mew deve ser posicionado na masão de cinabar
-        isso foi definido em maps/objects
-15.2 - a batalha ja inicia
+15.1 - o sprite do mew ja foi definido
 15.3 - adiiconar o dialogo do mew
 15.4 - o mew agora não tem mais a exclamação na cabeça
 15.5 - O mew foi adicionando na power plant, não deu pra por em outros lugar pq ele não sumia apos a batalha, ele estara no nivel 40
@@ -106,8 +101,7 @@
 16 - precisa corrigir os pokemon da victory road, as forma finais devem aparecer no 2f e 3f
     isso pq a area mais proixima do centor pokemon é o 2f, e não 3 
 
-
-tem q arrumar o item em ceruilena cave 
+17 - tem q arrumar o item em ceruilena cave 
 
 
 
