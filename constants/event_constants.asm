@@ -174,11 +174,7 @@
 	const EVENT_MANSION_SWITCH_ON
 	const_skip 16
 	const EVENT_BEAT_MANSION_1_TRAINER_0
-;    const_next $290
-;    const_skip 3
-;    const EVENT_BEAT_MEW
-;    const_skip 13                         ; $298
-    const EVENT_GOT_TM38                  ; $298
+    const EVENT_GOT_TM38
 	const EVENT_BEAT_BLAINE
 	const EVENT_BEAT_CINNABAR_GYM_TRAINER_0
 	const EVENT_BEAT_CINNABAR_GYM_TRAINER_1

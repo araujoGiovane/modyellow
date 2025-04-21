@@ -9,3 +9,4 @@ _PowerPlantZapdosBattleText::
 _MewBattleText::
 	text "Mew!@"
 	text_end
+

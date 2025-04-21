@@ -24,7 +24,7 @@ PowerPlant_TextPointers:
 	dw_const PowerPlantElectrode2Text, TEXT_POWERPLANT_ELECTRODE2
 	dw_const PowerPlantVoltorb6Text,   TEXT_POWERPLANT_VOLTORB6
 	dw_const PowerPlantZapdosText,     TEXT_POWERPLANT_ZAPDOS
-	dw_const CeruleanCaveB1FMewText,   TEXT_CERULEANCAVEB1F_MEW
+	dw_const PowerPlantMewText,        TEXT_POWERPLANT_MEW
 	dw_const PickUpItemText,           TEXT_POWERPLANT_CARBOS
 	dw_const PickUpItemText,           TEXT_POWERPLANT_HP_UP
 	dw_const PickUpItemText,           TEXT_POWERPLANT_RARE_CANDY
@@ -55,7 +55,7 @@ MewTrainerHeader:
     trainer EVENT_BEAT_MEW, 0, MewBattleText, MewBattleText, MewBattleText
 	db -1 ; end
 
-CeruleanCaveB1FMewText:
+PowerPlantMewText:
 	text_asm
 	ld hl, MewTrainerHeader
 	call TalkToTrainer

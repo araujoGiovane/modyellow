@@ -1,6 +1,5 @@
 	object_const_def
 	const_export CERULEANCAVEB1F_MEWTWO
-	const_export POKEMONMANSIONB1F_MEW
 	const_export CERULEANCAVEB1F_ULTRA_BALL1
 	const_export CERULEANCAVEB1F_ULTRA_BALL2
 	const_export CERULEANCAVEB1F_MAX_REVIVE
