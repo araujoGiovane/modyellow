@@ -38,6 +38,3 @@ _PokemonMansionB1FDiaryText::
 	cont "tendencies..."
 	done
 
-_MewBattleText::
-	text "Mew!@"
-	text_end
