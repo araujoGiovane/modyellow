@@ -1,9 +1,9 @@
 VictoryRoad2FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 31, GEODUDE
-	db 36, GEODUDE
+	db 31, GRAVELER
+	db 36, GRAVELER
 	db 41, GRAVELER
-	db 44, ZUBAT
+	db 44, GOLBAT
 	db 39, GOLBAT
 	db 44, GRAVELER
 	db 45, ONIX
